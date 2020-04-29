@@ -1,21 +1,56 @@
 body {
     width: 100%;
-    background-color: lightgrey;
+    background-color: #f5eee6;
 }
 
 #header {
-    background-color:#424242;
-    color: #FAFAFA;
+    background-color: #1c1d24;
+    opacity: 95%;
+    color: #ffffff;
     width: 100%;
     height: 60px;
     padding-right: 10px;
     margin-bottom: 2%;
     margin-top: -10px;
     margin-left: -10px;
+    display: flex;
 }
 
+#nav-section {
+    display: flex;
+    margin: auto;
+    
+}
+
+#nav-section ul{
+ display: flex;
+ margin: auto;
+ text-align: center;
+
+}
+
+#nav-section h5 {
+    flex: 1;
+}
+
+#nav-section li {
+    flex: 1;
+    display: flex;
+    padding-right: 15px;
+
+   
+ 
+    
+}
+
+#nav-section a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
 #main-content {
-    background-color: #7c0a02;
+    background-color: #a52a2a;
     justify-content: center;
     align-items: center;
     width: 90%;
@@ -26,8 +61,8 @@ body {
 }
 
 #about {
-    background-color: #424242;
-    color: #FAFAFA;
+    background-color: #a52a2a;
+    color: #ffffff;
 }
 
 #about p {
@@ -41,7 +76,7 @@ body {
 }
 
 #card-rows h2 {
-    color: white;
+    color: #1c1d24;
 }
 
 #row-one {
@@ -64,7 +99,7 @@ body {
     flex: 1;
     margin: 20px;
     /* border: 1px solid #f7f5fa; */
-    background-color: white;
+    background-color: #f5eee6;
     border-radius: 10px;
 }
 
@@ -76,6 +111,7 @@ body {
     padding: 6%;
     padding-top: 1%;
     padding-bottom: 1%;
+    color: #1c1d24;
     font-family: 'Abel', sans-serif;
 }
 
@@ -83,6 +119,7 @@ body {
     padding: 8%;
     padding-top: 0;
     height: 20%;
+    color: #1c1d24;
     font-family: 'Abel', sans-serif;
     margin-bottom: 15%;
 }
@@ -94,9 +131,11 @@ body {
     padding: 2%;
     text-align: center;
     width: 100px;
-    background-color: #424242; 
-    border: 1px solid #424242;
-    color: #FAFAFA;
+    background-color: #1c1d24;
+    opacity: 95%; 
+    border: 1px solid #1c1d24;
+    opacity: 95%;
+    color: #ffffff;
     font-family: 'Abel', sans-serif;
     font-size: medium;
 }
@@ -104,15 +143,17 @@ body {
 #certificates {
     text-align:  center;
     padding: 30px;
-    background-color: #424242;
-    color: #FAFAFA;
+    background-color: #1c1d24;
+    opacity: 95%;
+    color: #ffffff;
 }
 
 #footer {
     margin-top: 10%;
     padding: 10px;
     text-align: center;
-    color: #424242;
+    color: #1c1d24;
+    opacity: 95%;
     font-family: 'Abel', sans-serif;
 }
 
@@ -122,9 +163,10 @@ body {
 
 /* ---Home Contruction Page--- */
 #top-section {
-    background-color: #424242;
+    background-color: #1c1d24;
+    opacity: 95%;
     text-align: center;
-    color: white;
+    color: #ffffff;
     padding: 1%;
 }
 
@@ -154,8 +196,98 @@ body {
 }
 
 #quote-section {
-    background-color: #424242;
-    color: white;
+    background-color: #1c1d24;
+    opacity: 95%;
+    color: #ffffff;
     padding: 2%;
     text-align: center;
+}
+
+/* ---Decks and Siding--- */
+
+#deck-info {
+    color: #ffffff;
+    text-align: center;
+    padding: 5%;
+}
+
+
+#deck-img {
+    border: 1px solid black;
+}
+
+#siding-info {
+    color: #ffffff;
+    text-align: center;
+}
+
+
+#siding-img {
+    border: 1px solid black;
+    padding: 5%;
+}
+
+/* ---Remodling--- */
+
+#remodel-main {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+#remodel-info {
+    flex: 1;
+    padding: 5%;
+    margin: auto;
+    text-align: start;
+}
+
+#remodel-img-side {
+    flex: 1;
+    border: 1px solid black;
+}
+
+#remodel-img {
+    border: 1px solid black;
+}
+
+
+/* ---Insulations Page--- */
+
+#spray {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+#spray-info {
+    flex: 1;
+    padding: 5%;
+    margin: auto;
+    text-align: start;
+    color: #ffffff;
+}
+
+#spray-img {
+    flex: 1;
+    border: 1px solid black;
+}
+
+#blown {
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+#blown-img {
+    flex: 1;
+    border: 1px solid black;
+}
+
+#blown-info {
+    flex: 1;
+    padding: 5%;
+    margin: auto;
+    text-align: start;
+    color: #ffffff;
 }
