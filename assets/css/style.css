@@ -119,3 +119,35 @@ body {
 #copywrite {
     font-size: xx-small;
 }
+
+/* ---Home Contruction Page--- */
+#top-section {
+    background-color: #424242;
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
+
+#info-section {
+    display: flex;
+}
+
+#info-one {
+    padding: 5%;
+}
+
+#info-two {
+    padding: 5%;
+}
+
+#portfolio-section {
+    border: 1px solid black;
+    height: 200px;
+}
+
+#quote-section {
+    background-color: #424242;
+    color: white;
+    padding: 2%;
+    text-align: center;
+}
