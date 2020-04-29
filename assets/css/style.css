@@ -54,10 +54,10 @@ body {
     justify-content: center;
     align-items: center;
     width: 90%;
+    height: auto;
     margin: auto;
-    margin-top: 0%;
+    margin-top: 8%;
     box-shadow: 0px 3px 3px 3px grey;
-    margin-bottom: 80px;
 }
 
 #about {
@@ -149,11 +149,10 @@ body {
 }
 
 #footer {
-    margin-top: 10%;
+    margin-top: 5%;
     padding: 10px;
     text-align: center;
     color: #1c1d24;
-    opacity: 95%;
     font-family: 'Abel', sans-serif;
 }
 
@@ -165,9 +164,16 @@ body {
 #top-section {
     background-color: #1c1d24;
     opacity: 95%;
+    
     text-align: center;
     color: #ffffff;
-    padding: 1%;
+   
+    margin-top: -4%;
+    
+}
+
+#top-section h1 {
+    padding: 15px;
 }
 
 #info-section {
@@ -191,8 +197,15 @@ body {
 }
 
 #portfolio-section {
-    border: 1px solid black;
-    height: 200px;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+#portfolio-section img {
+    margin: 5%;
+    margin-bottom: 0;
+    border: 1px solid #f5eee6;
+    border-radius: 4px;
 }
 
 #quote-section {
@@ -213,18 +226,34 @@ body {
 
 
 #deck-img {
-    border: 1px solid black;
+    margin-bottom: 5%;
+}
+
+#deck-img img {
+    margin: 5%;
+    margin-bottom: 0;
+    border: 1px solid #f5eee6;
+    border-radius: 4px;
 }
 
 #siding-info {
     color: #ffffff;
     text-align: center;
+    padding: 5%;
 }
 
 
 #siding-img {
-    border: 1px solid black;
-    padding: 5%;
+    height: auto;
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+}
+
+#siding-img img {
+    margin: 5%;
+    margin-bottom: 0;
+    border: 1px solid #f5eee6;
+    border-radius: 4px;
 }
 
 /* ---Remodling--- */
@@ -233,6 +262,7 @@ body {
     display: flex;
     width: 100%;
     margin: auto;
+    margin-bottom: 15%;
 }
 
 #remodel-info {
@@ -244,11 +274,25 @@ body {
 
 #remodel-img-side {
     flex: 1;
-    border: 1px solid black;
+}
+
+#remodel-img-side img {
+    margin: 5%;
+    margin-bottom: 0;
+    border: 1px solid #f5eee6;
+    border-radius: 4px;
 }
 
 #remodel-img {
-    border: 1px solid black;
+    
+}
+
+#remodel-img img {
+    margin: 5%;
+    margin-bottom: 5%;
+    margin-top: 0;
+    border: 1px solid #f5eee6;
+    border-radius: 4px;
 }
 
 
@@ -270,18 +314,35 @@ body {
 
 #spray-img {
     flex: 1;
-    border: 1px solid black;
+    margin-bottom: 8%;
+    margin: auto;
+}
+
+#spray-img img {
+    margin: 5%;
+    margin-bottom: 0;
+    border: 1px solid #f5eee6;
+    border-radius: 4px;
 }
 
 #blown {
     display: flex;
     width: 100%;
     margin: auto;
+    padding: 1%;
+    padding-bottom: 3%;
 }
 
 #blown-img {
     flex: 1;
-    border: 1px solid black;
+    margin: auto;
+}
+
+#blown-img img {
+    margin: 5%;
+    margin-bottom: 0;
+    border: 1px solid #f5eee6;
+    border-radius: 4px;
 }
 
 #blown-info {
